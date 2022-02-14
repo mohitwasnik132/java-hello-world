@@ -4,7 +4,7 @@ sudo usermod -aG docker ubuntu
 git clone https://github.com/mohitwasnik132/java-hello-world.git
 cd java-hello-world/
 sudo apt install toilet -y >> /dev/null 2>&1
-sudo apt install maven
+sudo apt install maven -y
 sudo mvn clean install
 clear
 printf "\nHeading into container give image name, ports, container name as prompted"
