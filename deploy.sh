@@ -17,8 +17,8 @@ printf "\n\n"
 
 printf "assign ports p1:p2"
 
-read -p "Enter docker host port p1:             " p1
-read -p "Enter docker container port p2:        " p2
+read -p "Enter docker host port p1 (port at your side):             " p1
+read -p "Enter docker container port p2 (the port exposed in dockerfile):        " p2
 
 printf "\n\nyour tcp port $p1 of docker host is assigned to port $p2 of container\n\n"
 
